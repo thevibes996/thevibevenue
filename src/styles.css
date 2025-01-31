@@ -1,0 +1,38 @@
+.swiper-container {
+	list-style: none;
+}
+
+.pagination {
+	bottom: 0;
+	padding-bottom: 4px;
+}
+
+.slide {
+	text-align: center;
+	height: 17rem;
+	width: 26.7rem;
+	max-width: 100%;
+	background: #364d79;
+	overflow: hidden;
+}
+
+.slide:active {
+	background-color: green;
+}
+
+.slide:hover {
+	background-color: green;
+}
+.slide-0 {
+	background-color: green;
+	text-align: center;
+	height: 17rem;
+	width: 26.7rem;
+	max-width: 100%;
+	background: #364d79;
+	overflow: hidden;
+}
+
+.swiper-button-next , .swiper-button-prev {
+	color: #fff;
+}
