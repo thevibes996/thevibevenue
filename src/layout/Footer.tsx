@@ -9,14 +9,14 @@ const Footer = () => {
         </a>
         <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">
           {" "}
-          © 2024 White Corner Boxing. All rights reserved.{" "}
+          © 2024 The Vibe Venue Boxing. All rights reserved.{" "}
         </p>
         <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">
           {" "}
           Call us at +91 9564073380{" "}
         </p>
         <span className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
-          <a href="https://www.instagram.com/whitecornerboxingacademy/?igsh=MWoxdXhta3VzYmVsNg%3D%3D" className="text-gray-400 hover:text-gray-500">
+          <a href="https://www.instagram.com/TheVibeVenueboxingacademy/?igsh=MWoxdXhta3VzYmVsNg%3D%3D" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Instagram</span>
             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path

@@ -53,7 +53,7 @@ export default function Instagram() {
         <h2 className=" text-center text-3xl  dark md:text-4xl font-kanit uppercase">Follow on IG</h2>
         <div className="w-full flex justify-center">
           {" "}
-          <a href="https://www.instagram.com/whitecornerboxingacademy?igsh=MWoxdXhta3VzYmVsNg==" className="mb-12 p-2 text-center text-base md:text-3xl text-slate-500 font-mono  w-fit bg-[#D6FB00] ">@whitecornerboxingacademy</a>
+          <a href="https://www.instagram.com/TheVibeVenueboxingacademy?igsh=MWoxdXhta3VzYmVsNg==" className="mb-12 p-2 text-center text-base md:text-3xl text-slate-500 font-mono  w-fit bg-[#ffb300] ">@TheVibeVenueboxingacademy</a>
         </div>
         {/* {reels.length > 0 && (
           <Swiper id="swiper" virtual slidesPerView={6} spaceBetween={0} breakpoints={breakpoints}>

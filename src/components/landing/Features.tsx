@@ -76,8 +76,16 @@ const Features = () => {
     }
   };
   return (
+
     <section aria-labelledby="favorites-heading">
-      <div className="mx-auto max-w-7xl  py-24  sm:py-32">
+      <div className="mx-auto max-w-7xl pt-20 pb-48">
+      <div className="flex flex-col px-4  pb-14">
+        <h2 className="mx-auto max-w-4xl text-4xl font-bold font-kanit py-4">ACHIEVEMENTS</h2>
+        <p className=" flex text-center justify-center items-center py-4">
+          Our team boasts numerous achievements, including multiple medals in state boxing championships and <br /> consistent participation in national and
+          professional boxing events.
+        </p>
+      </div>
         {
           <Swiper id="swiper" slidesPerView={3} spaceBetween={30} slidesPerGroup={2} breakpoints={breakpoints} navigation>
             {favorites.map((favorite, index) => (

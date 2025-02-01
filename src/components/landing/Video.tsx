@@ -23,7 +23,7 @@ export default function Video() {
             <div className="absolute top-0 left-0 z-50 w-full h-full">
               <div className="flex justify-center items-center h-full cursor-pointer">
               
-                <div className="bg-[#D6FB00] px-3 py-2 rounded-lg" onClick={() => setId(true)}>
+                <div className="bg-[#ffb300] px-3 py-2 rounded-lg" onClick={() => setId(true)}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" className="w-6 h-6">
                   <path
                     fillRule="evenodd"
@@ -37,8 +37,8 @@ export default function Video() {
           </div>
         )}
       </div>
-      <div className="flex bg-[#D6FB00]  justify-center items-center text-center z-50 w-full h-[7%] b-0  ">
-        <p className="px-4">˗ˏˋ ★ ˎˊ˗ Bangalore's First Open Air Boxing = White Corner</p>
+      <div className="flex bg-[#ffb300]  justify-center items-center text-center z-50 w-full h-[7%] b-0  ">
+        <p className="px-4">˗ˏˋ ★ ˎˊ˗ Bangalore's First Open Air Boxing = The Vibe Venue</p>
       </div>
     </section>
   );

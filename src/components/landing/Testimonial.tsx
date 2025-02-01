@@ -12,12 +12,12 @@ export default class Video extends Component {
         <div className="mx-auto max-w-7xl px-6 py-32">
           <h2 className="mb-12 text-center text-3xl font-bold  dark md:text-4xl font-kanit uppercase">What our customers say</h2>
           <div className="grid gap-8 md:grid-rows-2 lg:grid-cols-2">
-            <div className="row-span-2   p-8 text-center border border-[#D6FB00]">
+            <div className="row-span-2   p-8 text-center border border-[#ffb300]">
               <div className="flex h-full flex-col justify-center space-y-4w-full ">
                 <img className="w-10" src={double} />
                 <div className="flex justify-center text-center justify-items-center">
                   <p className="md:text-[16px] w-[70%]">
-                    I've been training at white corner under the guidance of coach dipan for the past few months. My experience has been nothing short
+                    I've been training at The Vibe Venue under the guidance of coach dipan for the past few months. My experience has been nothing short
                     of outstanding. Coach Dipan is true maestro of sweet science. His depth of knowledge, passion for the sport, and commitment to his
                     students set him apart. His constructive feedback, attention to detail, and encouragement creates an environment that provided
                     continuous improvement. It's a place where everyone, regardless of skill level , feels welcome.The Classes are well-organized,
@@ -32,7 +32,7 @@ export default class Video extends Component {
               </div>
             </div>
 
-            <div className=" sm:flex sm:space-x-8   border border-[#D6FB00] p-8 text-center ">
+            <div className=" sm:flex sm:space-x-8   border border-[#ffb300] p-8 text-center ">
               <div className="flex h-full flex-col justify-center space-y-4w-full ">
                 <img className="w-10" src={double} />
                 <div className="flex justify-center text-center justify-items-center">
@@ -41,7 +41,7 @@ export default class Video extends Component {
                     for real ring performance. You would be taken for a surprise once you step into the open space practice methods of WCBA. The head
                     coach - Dipan, one of the rarest of coaches you would come across. He is highly experienced and has great knowledge on every
                     aspects of boxing. He is very prudent in teaching the basics/ footwork/ coordination, drills/ spars with you, makes sure you learn
-                    every technique/ combination, takes you to the world of sparring in the right pace. Prior training at White Corner, I literally
+                    every technique/ combination, takes you to the world of sparring in the right pace. Prior training at The Vibe Venue, I literally
                     went to many boxing/ martial art clubs and trust me, there were very few coaches who are dedicated and talented like here!!!
                     <p className="font-bold py-4">Evance</p>
                   </p>
@@ -51,7 +51,7 @@ export default class Video extends Component {
                 </div>
               </div>
             </div>
-            <div className=" sm:flex sm:space-x-8  border border-[#D6FB00]  p-8 text-center ">
+            <div className=" sm:flex sm:space-x-8  border border-[#ffb300]  p-8 text-center ">
               <div className="flex h-full flex-col justify-center space-y-4w-full ">
                 <img className="w-10" src={double} />
                 <div className="flex justify-center text-center justify-items-center">

@@ -17,14 +17,12 @@ export default function Landing() {
     <div style={{ overflowX: "hidden" }}>
       <Hero />
       <Features />
-      <Video />
-      <Equipment />
+      {/* <Video /> */}
+      {/* <Equipment /> */}
       <About />
-
       <Quote />
       <Photo />
       <Testimonial />
-
       <Instagram />
       <ContactUs />
     </div>

@@ -3,17 +3,17 @@ import AboutPic from "../../assets/aboutme.jpeg";
 
 export default function About() {
   return (
-    <section className="relative flex flex-col items-center justify-center w-full px-6 py-24 bg-neutral-800 bg-cover lg:py-32">
+    <section className="relative flex flex-col items-center justify-center w-full px-6 py-35 bg-neutral-800 bg-cover lg:py-32">
       <div className="flex flex-col max-w-7xl gap-4  mx-auto h-full lg:flex-row">
         <div className=" relative z-20 flex flex-col w-full text-2xl text-gray-700 lg:w-1/2 items-start">
           <h1 className="relative z-20 text-3xl font-bold leading-none xl:text-4xl  text-left sm:text-start" data-primary="purple-500">
             <span className="text-white text-4xl font-bold font-kanit">
-              About <span className="text-[#D6FB00]">Founder , Headcoach</span>
+              About <span className="text-[#ffb300]">Founder , Headcoach</span>
             </span>
           </h1>
           <p className="relative z-20 block mt-6 text-base font-medium text-gray-400 xl:text-md sm:text-center lg:text-left">
             Dipan Rai, a lifelong boxing enthusiast, has competed in numerous tournaments in India and now resides in Bangalore, He is the founder of
-            Whitecorner boxing academy.From his initial training days to competing in numerous tournaments across India, his dedication for boxing has
+            TheVibeVenue .From his initial training days to competing in numerous tournaments across India, his dedication for boxing has
             evolved into a passion for not only training and competing but also sharing the art and science of the sport. His goal is to help others
             reach their full potential and achieve their goals in boxing.
             <br /> <br />
@@ -27,7 +27,7 @@ export default function About() {
           </p>
         </div>
         <div className="relative flex flex-col justify-around items-center h-full gap-10   w-full  rounded-lg cursor-pointer lg:w-1/2">
-          <div className="relative overflow-hidden border border-[#D6FB00] cursor-pointer" data-rounded="rounded-md" data-rounded-max="rounded-full">
+          <div className="relative overflow-hidden border border-[#ffb300] cursor-pointer" data-rounded="rounded-md" data-rounded-max="rounded-full">
             <img src={AboutPic} alt="Coach dipan about me" className="z-10 object-cover w-96 h-96 " />
           </div>
           {/* SOCIAL MEDIA LINKS */}

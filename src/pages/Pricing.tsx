@@ -38,7 +38,7 @@ export default function Example() {
     <div className="bg-white py-10 min-h-[90vh]">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-base font-semibold leading-7 bg-black text-[#D6FB00]">Pricing</h2>
+          <h2 className="text-base font-semibold leading-7 bg-black text-[#ffb300]">Pricing</h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Pricing plans for everyone</p>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">Choose an affordable plan.</p>
@@ -54,7 +54,7 @@ export default function Example() {
                 key={option.value}
                 value={option}
                 className={({ checked }) =>
-                  classNames(checked ? "bg-[#D6FB00] text-blck" : "text-gray-500", "cursor-pointer rounded-full px-2.5 py-1")
+                  classNames(checked ? "bg-[#ffb300] text-blck" : "text-gray-500", "cursor-pointer rounded-full px-2.5 py-1")
                 }
               >
                 <span>{option.label}</span>
@@ -65,8 +65,8 @@ export default function Example() {
 
         <div className="isolate mx-auto mt-10 flex flex-col sm:flex-row gap-8 justify-center ">
           {tiers.map((tier) => (
-            <div key={tier.id} className={classNames(tier.mostPopular ? "ring-2 ring-[#D6FB00]" : "ring-1 ring-gray-200", " p-8 w-full")}>
-              <h3 id={tier.id} className={classNames(tier.mostPopular ? "text-[#D6FB00]" : "text-gray-900", "text-lg font-semibold leading-8")}>
+            <div key={tier.id} className={classNames(tier.mostPopular ? "ring-2 ring-[#ffb300]" : "ring-1 ring-gray-200", " p-8 w-full")}>
+              <h3 id={tier.id} className={classNames(tier.mostPopular ? "text-[#ffb300]" : "text-gray-900", "text-lg font-semibold leading-8")}>
                 {tier.name}
               </h3>
               <p className="mt-4 text-sm leading-6 text-gray-600">{tier.description}</p>
@@ -78,7 +78,7 @@ export default function Example() {
               <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
                 {tier.features.map((feature) => (
                   <li key={feature} className="flex gap-x-3">
-                    <CheckIcon className="h-6 w-6 p-1 bg-black flex-none text-[#D6FB00]" aria-hidden="true" />
+                    <CheckIcon className="h-6 w-6 p-1 bg-black flex-none text-[#ffb300]" aria-hidden="true" />
                     {feature}
                   </li>
                 ))}
@@ -102,7 +102,7 @@ export default function Example() {
               mostPopular: false
             }
           ].map((tier) => (
-            <div key={tier.id} className={classNames(tier.mostPopular ? "ring-2 ring-[#D6FB00]" : "ring-1 ring-gray-200", " p-8 w-full")}>
+            <div key={tier.id} className={classNames(tier.mostPopular ? "ring-2 ring-[#ffb300]" : "ring-1 ring-gray-200", " p-8 w-full")}>
               <p className="mt-6 flex items-baseline gap-x-1">
                 <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.price.monthly}</span>
                 <span className="text-sm font-semibold leading-6 text-gray-600">{"/Session"}</span>
@@ -111,7 +111,7 @@ export default function Example() {
               <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
                 {tier.features.map((feature) => (
                   <li key={feature} className="flex gap-x-3">
-                    <CheckIcon className="h-6 w-6 p-1 bg-black flex-none text-[#D6FB00]" aria-hidden="true" />
+                    <CheckIcon className="h-6 w-6 p-1 bg-black flex-none text-[#ffb300]" aria-hidden="true" />
                     {feature}
                   </li>
                 ))}
@@ -135,7 +135,7 @@ export default function Example() {
               mostPopular: false
             }
           ].map((tier) => (
-            <div key={tier.id} className={classNames(tier.mostPopular ? "ring-2 ring-[#D6FB00]" : "ring-1 ring-gray-200", " p-8 w-full")}>
+            <div key={tier.id} className={classNames(tier.mostPopular ? "ring-2 ring-[#ffb300]" : "ring-1 ring-gray-200", " p-8 w-full")}>
               <p className="mt-6 flex items-baseline gap-x-1">
                 <span className="text-4xl font-bold tracking-tight text-gray-900">Contact for Customized Plan</span>
                 {/* <span className="text-sm font-semibold leading-6 text-gray-600">{frequency.priceSuffix}</span> */}
@@ -144,7 +144,7 @@ export default function Example() {
               <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
                 {tier.features.map((feature) => (
                   <li key={feature} className="flex gap-x-3">
-                    <CheckIcon className="h-6 w-6 p-1 bg-black flex-none text-[#D6FB00]" aria-hidden="true" />
+                    <CheckIcon className="h-6 w-6 p-1 bg-black flex-none text-[#ffb300]" aria-hidden="true" />
                     {feature}
                   </li>
                 ))}
