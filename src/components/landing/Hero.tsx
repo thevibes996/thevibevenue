@@ -21,24 +21,24 @@ const Hero = () => {
                 to={routingConfig.PRICING}
                 className="w-auto rounded-full sm:px-8 px-4 py-3 text-xs sm:text-sm font-medium text-white hover:text-[#ffb300] "
               >
-                PRICING
+                Privacy Policy
               </Link>
             </div>
-            <div className="relative space-x-4 ">
+            {/* <div className="relative space-x-4 ">
               <Link
                 to={routingConfig.REGISTER}
                 className="w-auto rounded-full sm:px-8 px-4 py-3 text-xs sm:text-sm font-medium text-white hover:text-[#ffb300]"
               >
                 REGISTER
               </Link>
-            </div>
+            </div> */}
             <div className="relative space-x-4 ">
-              <Link
-                to={routingConfig.SCHEDULE}
-                className="w-auto rounded-full sm:px-8 px-4 py-3 text-xs sm:text-sm font-medium text-white hover:text-[#ffb300]"
-              >
-                SCHEDULE
-              </Link>
+            <a
+        target="_blank" href="https://api.whatsapp.com/send?phone=919535126699&text=Hi%20the%20vibe%20venue%2C%0AAm%20looking%20to%20book%20Private%20Theatre"
+        className="w-auto sm:px-8 px-4 py-3 text-xs sm:text-sm font-medium text-white bg-[#ffb300] hover:bg-[#e6a100] transition"
+      >
+        BOOK NOW
+      </a>
             </div>
           </div>
         </div>
@@ -54,9 +54,9 @@ const Hero = () => {
           </h1>
           <p className=" mx-auto max-w-2xl sm:text-lg md:text-xl md:leading-8 text-[#ffffff] ">For every celebration, we capture your special moments with a cinematic touch, turning them into timeless memories.</p>
           <div className="flex space-x-4">
-            <a href="#book" className="bg-[#ffb300] px-6 py-3 text-md font-medium text-black hover:bg-[#cfa238]">Book Now</a>
-            <a href="#contact" className=" border border-[#ffb300] px-6 py-3 text-md font-medium text-[#ffb300] hover:bg-[#ffffff]
-            ">Contact Us</a>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=919535126699&text=Hi%20the%20vibe%20venue%2C%0AAm%20looking%20to%20book%20Private%20Theatre" className="bg-[#ffb300] px-6 py-3 text-md font-medium text-black hover:bg-[#cfa238]">Book Now</a>
+            <a href="https://wa.me/c/918762726699" target="_blank" className=" border border-[#ffb300] px-6 py-3 text-md font-medium text-[#ffb300] hover:bg-[#ffffff]
+            ">Order customized cake</a>
           </div>
         </div>
       </main>

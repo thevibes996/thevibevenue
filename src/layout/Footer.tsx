@@ -9,14 +9,14 @@ const Footer = () => {
         </a>
         <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">
           {" "}
-          © 2024 The Vibe Venue Boxing. All rights reserved.{" "}
+          © 2025 The Vibe Venue . All rights reserved.{" "}
         </p>
         <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">
           {" "}
-          Call us at +91 9564073380{" "}
+          Call us at +91 9535126699{" "}
         </p>
         <span className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
-          <a href="https://www.instagram.com/TheVibeVenueboxingacademy/?igsh=MWoxdXhta3VzYmVsNg%3D%3D" className="text-gray-400 hover:text-gray-500">
+          <a href="https://www.instagram.com/the_vibe_venu_6699/" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Instagram</span>
             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path
@@ -25,6 +25,16 @@ const Footer = () => {
                 clip-rule="evenodd"
               ></path>
             </svg>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61572415484109&sk=about_details" className="text-gray-400 hover:text-gray-500">
+            <span className="sr-only">facebook</span>
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
+  <path 
+    strokeLinecap="round" 
+    strokeLinejoin="round" 
+    d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3V2z" 
+  />
+</svg>
           </a>
         </span>
       </div>

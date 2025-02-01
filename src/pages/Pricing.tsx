@@ -1,156 +1,68 @@
-import React, { useState } from "react";
-import { RadioGroup } from "@headlessui/react";
-import { CheckIcon } from "@heroicons/react/20/solid";
+import React from "react";
 
-const frequencies = [
-  { value: "monthly", label: "Month", priceSuffix: "/month" },
-  { value: "annually", label: "3 Months", priceSuffix: "/3 months" }
-];
-const tiers = [
-  {
-    name: "Below 18 Years",
-    id: "tier-hobby",
-    href: "#",
-    price: { monthly: "₹2000", annually: "₹5000" },
-    description: "The essentials to your fitness.",
-    features: ["Weekly 6 classes", "Competetive Boxing", "S&C Training"],
-    mostPopular: false
-  },
-  {
-    name: "Above 18 Years",
-    id: "tier-freelancer",
-    href: "#",
-    price: { monthly: "₹3000", annually: "₹7500" },
-    description: "The essentials to your fitness.",
-    features: ["Weekly 6 classes", "Competetive Boxing", "S&C Training"],
-    mostPopular: false
-  }
-];
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
-
-export default function Example() {
-  const [frequency, setFrequency] = useState(frequencies[0]);
-
+export default function PrivacyPolicy() {
   return (
     <div className="bg-white py-10 min-h-[90vh]">
+      
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-base font-semibold leading-7 bg-black text-[#ffb300]">Pricing</h2>
-          <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Pricing plans for everyone</p>
+          <h2 className="text-base font-semibold leading-7 bg-black text-[#ffb300]">
+            Privacy Policy
+          </h2>
+          <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+            Welcome to The Vibe Venue
+          </p>
         </div>
-        <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">Choose an affordable plan.</p>
-        <div className="mt-16 flex justify-center">
-          <RadioGroup
-            value={frequency}
-            onChange={setFrequency}
-            className="grid grid-cols-2 gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-gray-200"
-          >
-            <RadioGroup.Label className="sr-only">Payment frequency</RadioGroup.Label>
-            {frequencies.map((option) => (
-              <RadioGroup.Option
-                key={option.value}
-                value={option}
-                className={({ checked }) =>
-                  classNames(checked ? "bg-[#ffb300] text-blck" : "text-gray-500", "cursor-pointer rounded-full px-2.5 py-1")
-                }
-              >
-                <span>{option.label}</span>
-              </RadioGroup.Option>
-            ))}
-          </RadioGroup>
-        </div>
-
-        <div className="isolate mx-auto mt-10 flex flex-col sm:flex-row gap-8 justify-center ">
-          {tiers.map((tier) => (
-            <div key={tier.id} className={classNames(tier.mostPopular ? "ring-2 ring-[#ffb300]" : "ring-1 ring-gray-200", " p-8 w-full")}>
-              <h3 id={tier.id} className={classNames(tier.mostPopular ? "text-[#ffb300]" : "text-gray-900", "text-lg font-semibold leading-8")}>
-                {tier.name}
-              </h3>
-              <p className="mt-4 text-sm leading-6 text-gray-600">{tier.description}</p>
-              <p className="mt-6 flex items-baseline gap-x-1">
-                <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.price[frequency.value]}</span>
-                <span className="text-sm font-semibold leading-6 text-gray-600">{frequency.priceSuffix}</span>
-              </p>
-
-              <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
-                {tier.features.map((feature) => (
-                  <li key={feature} className="flex gap-x-3">
-                    <CheckIcon className="h-6 w-6 p-1 bg-black flex-none text-[#ffb300]" aria-hidden="true" />
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-        <br />
-        <br />
-        <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Pay per session</p>
-
-        <div className="isolate mx-auto mt-10 flex flex-col sm:flex-row gap-8 justify-center ">
-          {[
-            {
-              name: "Above 18 Years",
-              id: "tier-freelancer",
-              href: "#",
-              price: { monthly: "₹300", annually: "₹7500" },
-              description: "The essentials to your fitness.",
-              features: ["Competetive Boxing", "S&C Training"],
-              mostPopular: false
-            }
-          ].map((tier) => (
-            <div key={tier.id} className={classNames(tier.mostPopular ? "ring-2 ring-[#ffb300]" : "ring-1 ring-gray-200", " p-8 w-full")}>
-              <p className="mt-6 flex items-baseline gap-x-1">
-                <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.price.monthly}</span>
-                <span className="text-sm font-semibold leading-6 text-gray-600">{"/Session"}</span>
-              </p>
-
-              <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
-                {tier.features.map((feature) => (
-                  <li key={feature} className="flex gap-x-3">
-                    <CheckIcon className="h-6 w-6 p-1 bg-black flex-none text-[#ffb300]" aria-hidden="true" />
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-        <br />
-        <br />
-        <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl w">Personal Training</p>
-
-        <div className="isolate mx-auto mt-10 flex flex-col sm:flex-row gap-8 justify-center ">
-          {[
-            {
-              name: "Above 18 Years",
-              id: "tier-freelancer",
-              href: "#",
-              price: { monthly: "₹3000", annually: "₹7500" },
-              description: "The essentials to your fitness.",
-              features: ["Competetive Boxing", "S&C Training"],
-              mostPopular: false
-            }
-          ].map((tier) => (
-            <div key={tier.id} className={classNames(tier.mostPopular ? "ring-2 ring-[#ffb300]" : "ring-1 ring-gray-200", " p-8 w-full")}>
-              <p className="mt-6 flex items-baseline gap-x-1">
-                <span className="text-4xl font-bold tracking-tight text-gray-900">Contact for Customized Plan</span>
-                {/* <span className="text-sm font-semibold leading-6 text-gray-600">{frequency.priceSuffix}</span> */}
-              </p>
-
-              <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
-                {tier.features.map((feature) => (
-                  <li key={feature} className="flex gap-x-3">
-                    <CheckIcon className="h-6 w-6 p-1 bg-black flex-none text-[#ffb300]" aria-hidden="true" />
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+        
+        <div className="mx-auto mt-6 max-w-4xl text-gray-700 text-lg leading-8">
+          <p>
+            Your privacy is important to us. This Privacy Policy outlines how we collect, use, and protect your information when you visit our website or use our services.
+          </p>
+          
+          <h3 className="mt-8 text-2xl font-semibold text-gray-900">Information We Collect</h3>
+          <p className="mt-2">We may collect the following types of information:</p>
+          <ul className="list-disc ml-6 mt-2">
+            <li><strong>Personal Information:</strong> Name, email address, phone number, and any other details you provide when booking a space or contacting us.</li>
+            <li><strong>Usage Data:</strong> Information about how you use our website, such as IP address, browser type, and access times.</li>
+          </ul>
+          
+          <h3 className="mt-8 text-2xl font-semibold text-gray-900">How We Use Your Information</h3>
+          <p className="mt-2">We use your information for the following purposes:</p>
+          <ul className="list-disc ml-6 mt-2">
+            <li>To process and manage bookings.</li>
+            <li>To communicate with you regarding your reservations and inquiries.</li>
+            <li>To improve our services and website.</li>
+            <li>To comply with legal obligations.</li>
+          </ul>
+          
+          <h3 className="mt-8 text-2xl font-semibold text-gray-900">Sharing Your Information</h3>
+          <p className="mt-2">We do not sell or rent your personal information to third parties. We may share your information with:</p>
+          <ul className="list-disc ml-6 mt-2">
+            <li>Service providers who assist us in operating our website or conducting our business.</li>
+            <li>Legal authorities, if required by law.</li>
+          </ul>
+          
+          <h3 className="mt-8 text-2xl font-semibold text-gray-900">Data Security</h3>
+          <p className="mt-2">We implement reasonable security measures to protect your information from unauthorized access, disclosure, or misuse. However, no method of transmission over the Internet or electronic storage is 100% secure.</p>
+          
+          <h3 className="mt-8 text-2xl font-semibold text-gray-900">Your Rights</h3>
+          <p className="mt-2">You have the right to:</p>
+          <ul className="list-disc ml-6 mt-2">
+            <li>Access your personal information.</li>
+            <li>Request corrections to your personal information.</li>
+            <li>Request deletion of your personal information.</li>
+          </ul>
+          <p className="mt-2">To exercise these rights, please contact us at <span className="text-[#ffb300]">santhoshpvtevent@gmail.com</span>.</p>
+          
+          <h3 className="mt-8 text-2xl font-semibold text-gray-900">Changes to This Privacy Policy</h3>
+          <p className="mt-2">We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on our website. Your continued use of our services after any modifications indicates your acceptance of the revised policy.</p>
+          
+          <h3 className="mt-8 text-2xl font-semibold text-gray-900">Contact Us</h3>
+          <p className="mt-2">If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
+          <p className="mt-4 text-lg font-semibold">The Vibe Venue Private Theatre</p>
+          <p>Mirza Road ,Vinayaka Nagar, Anekal,Bengaluru, Karnataka 560040</p>
+          <p>9535126699</p>
+          <p className="text-[#ffb300]">santhoshpvtevent@gmail.com</p>
         </div>
       </div>
     </div>

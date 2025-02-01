@@ -9,10 +9,11 @@ const ContactForm = () => {
   });
 
   const services = [
-    'Photography',
-    'Videography',
-    'Event Planning',
-    'Consultation'
+'Private Theatre',
+    'Bridal Shower',
+    'Birthday Event',
+    'Anniversary Party',
+    'Customized Cake'
   ];
 
   const handleSubmit = (e) => {
@@ -25,8 +26,8 @@ const ContactForm = () => {
       return;
     }
 
-    const number = "919564073380";
-    const text = `Hi%20Dipan%2C%0AI%20am%20${encodeURI(formData.name)}%20%0Aemail%3A%20${encodeURI(formData.email)}%2C%0Aphone%3A%20${encodeURI(formData.phone)}%2C%0Aservice%3A%20${encodeURI(formData.service)}`;
+    const number = "9535126699";
+    const text = `Hi%20TheVibeVenue%2C%0AI%20am%20${encodeURI(formData.name)}%20%0Aemail%3A%20${encodeURI(formData.email)}%2C%0Aphone%3A%20${encodeURI(formData.phone)}%2C%0Aservice%3A%20${encodeURI(formData.service)}`;
     const url = `https://api.whatsapp.com/send?phone=${number}&text=${text}`;
     window.open(url);
 
@@ -51,7 +52,7 @@ const ContactForm = () => {
           height="100%"
           title="map"
           scrolling="no"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15555.794254433651!2d77.6450401!3d12.9110275!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1592a4386333%3A0x1fd8cdd9e6083e7b!2sWhite%20Corner%20Boxing%20Academy!5e0!3m2!1sen!2sin!4v1705903695726!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.554486485431!2d77.6993602!3d12.7141601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6f82a7896cd5%3A0x20ab9638d4f6e2e4!2sMirza%20Rd%2C%20Vinayaka%20Nagar%2C%20Anekal%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1706777770000"
         />
       </div>
       <div className="container px-5 py-24 mx-auto flex">
@@ -124,7 +125,7 @@ const ContactForm = () => {
             onClick={handleSubmit}
             className="text-black bg-[#ffb300] border-0 py-2 px-6 focus:outline-none hover:bg-black hover:text-white text-lg"
           >
-            Button
+            Submit
           </button>
         </div>
       </div>
