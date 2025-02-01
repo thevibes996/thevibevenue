@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="mx-auto flex h-full w-full max-w-7xl items-center justify-between px-6">
           <div className="relative">
             <Link to={routingConfig.HOME} className="flex items-center font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-start md:mb-0">
-              <img className="grayscale w-14" src={double} alt="" />
+              <img className=" w-60" src={double} alt="" />
             </Link>
           </div>
 
@@ -35,7 +35,7 @@ const Hero = () => {
             <div className="relative space-x-4 ">
             <a
         target="_blank" href="https://api.whatsapp.com/send?phone=919535126699&text=Hi%20the%20vibe%20venue%2C%0AAm%20looking%20to%20book%20Private%20Theatre"
-        className="w-auto sm:px-8 px-4 py-3 text-xs sm:text-sm font-medium text-white bg-[#ffb300] hover:bg-[#e6a100] transition"
+        className="w-auto sm:px-8 px-4 py-3 text-xs sm:text-sm font-medium text-black bg-[#ffb300] hover:bg-[#e6a100] transition"
       >
         BOOK NOW
       </a>
@@ -52,7 +52,7 @@ const Hero = () => {
           <h1 className="font-landasans font-bold text-6xl md:text-9xl lg:text-[150px]  text-[#ffb300] opacity-100 tracking-widest">
             The Vibe Venue 
           </h1>
-          <p className=" mx-auto max-w-2xl sm:text-lg md:text-xl md:leading-8 text-[#ffffff] ">For every celebration, we capture your special moments with a cinematic touch, turning them into timeless memories.</p>
+          <p className=" mx-auto max-w-2xl sm:text-lg md:text-xl md:leading-8 text-[#ffffff] ">Private theatre for every celebration, we capture your special moments with a cinematic touch, turning them into timeless memories.</p>
           <div className="flex space-x-4">
             <a target="_blank" href="https://api.whatsapp.com/send?phone=919535126699&text=Hi%20the%20vibe%20venue%2C%0AAm%20looking%20to%20book%20Private%20Theatre" className="bg-[#ffb300] px-6 py-3 text-md font-medium text-black hover:bg-[#cfa238]">Book Now</a>
             <a href="https://wa.me/c/918762726699" target="_blank" className=" border border-[#ffb300] px-6 py-3 text-md font-medium text-[#ffb300] hover:bg-[#ffffff]
