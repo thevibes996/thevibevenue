@@ -17,13 +17,8 @@ export default class Video extends Component {
                 <img className="w-10" src={double} />
                 <div className="flex justify-center text-center justify-items-center">
                   <p className="md:text-[16px] w-[70%]">
-                    I've been training at The Vibe Venue under the guidance of coach dipan for the past few months. My experience has been nothing short
-                    of outstanding. Coach Dipan is true maestro of sweet science. His depth of knowledge, passion for the sport, and commitment to his
-                    students set him apart. His constructive feedback, attention to detail, and encouragement creates an environment that provided
-                    continuous improvement. It's a place where everyone, regardless of skill level , feels welcome.The Classes are well-organized,
-                    combing a mix of technical drills , conditioning and sparring. Since joining I've seen significant improvements in my boxing
-                    skills and fitness levels. I Wholeheartedly recommend to anyone looking for embark on a rewarding boxing journey
-                    <p className="font-bold py-4">Paramjeet Singh</p>
+                  "We celebrated my birthday at this amazing venue, and it was a blast! The private theatre made it feel so personal, and the decorations were top-notch. The cake was a hit, and the extra touches really made the day extra special. Highly recommend!
+                    <p className="font-bold py-4">Adarsh Reddy</p>
                   </p>
                 </div>
                 <div className="w-full flex justify-items-end text-right justify-end ">
@@ -37,13 +32,8 @@ export default class Video extends Component {
                 <img className="w-10" src={double} />
                 <div className="flex justify-center text-center justify-items-center">
                   <p className="md:text-[16px] w-[70%]">
-                    Unlike most boxing gyms out in BLR focusing more on just fitness & money, at WCBA they give importance in building boxing skills
-                    for real ring performance. You would be taken for a surprise once you step into the open space practice methods of WCBA. The head
-                    coach - Dipan, one of the rarest of coaches you would come across. He is highly experienced and has great knowledge on every
-                    aspects of boxing. He is very prudent in teaching the basics/ footwork/ coordination, drills/ spars with you, makes sure you learn
-                    every technique/ combination, takes you to the world of sparring in the right pace. Prior training at The Vibe Venue, I literally
-                    went to many boxing/ martial art clubs and trust me, there were very few coaches who are dedicated and talented like here!!!
-                    <p className="font-bold py-4">Evance</p>
+                  Our anniversary celebration at the private theatre was beyond perfect! The intimate setting, gorgeous decorations, and delicious cake made it an unforgettable experience. We felt so special, and everything was taken care of – truly a magical evening!
+                    <p className="font-bold py-4">Sujith Sha</p>
                   </p>
                 </div>
                 <div className="w-full flex justify-items-end text-right justify-end ">
@@ -56,9 +46,8 @@ export default class Video extends Component {
                 <img className="w-10" src={double} />
                 <div className="flex justify-center text-center justify-items-center">
                   <p className="md:text-[16px] w-[70%]">
-                    Coach Dipan's passion for the sport is contagious, making every session not only challenging but also incredibly enjoyable. He is
-                    the mentor you need
-                    <p className="font-bold py-4">Surjeet Suman Acharya</p>
+                  Booked the private theatre for a special date night, and it was incredible! The atmosphere was so romantic, the decorations were beautiful, and the cake was a delightful surprise. It felt like a truly unique and unforgettable experience. Highly recommend for anyone looking to make a date extra special!
+                    <p className="font-bold py-4">Vinay Vinnu</p>
                   </p>
                 </div>
                 <div className="w-full flex justify-items-end text-right justify-end ">
