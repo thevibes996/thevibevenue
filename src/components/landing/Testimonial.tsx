@@ -61,7 +61,7 @@ export default class Video extends Component {
         <div className="flex justify-center justify-items-center items-center">
           <div className="flex flex-col sm:flex-row gap-10  p-4 ">
             <a
-              href="https://maps.app.goo.gl/d5KKrzfr3y8Bg19BA?g_st=ic"
+              href="#googlemaplink"
               className="flex flex-row-2w-full    justify-center justify-items-center text-center items-center "
             >
               <div className="row-span-1 flex  justify-center justify-items-center text-center items-center ">
@@ -80,15 +80,7 @@ export default class Video extends Component {
               </div>
             </a>
 
-            <a
-              href="https://www.urbanpro.com/bangalore/dipan-rai/reviews/11441886"
-              className="flex flex-col-2w-full justify-center justify-items-center text-center items-center  "
-            >
-              <img className=" h-10 w-10 text-center " src={arrow} />
-              <div className="flex  justify-center justify-items-center text-center items-center px-3">
-                <div className="col-span-1w-full   text-black font-customFont   space-x-50 font-bold text-[8px]">MORE REVIEWS </div>
-              </div>
-            </a>
+           
           </div>
         </div>
       </div>
