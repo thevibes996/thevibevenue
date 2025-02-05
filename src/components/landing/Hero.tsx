@@ -37,20 +37,20 @@ const Hero = () => {
         target="_blank" href="https://api.whatsapp.com/send?phone=919535126699&text=Hi%20the%20vibe%20venue%2C%0AAm%20looking%20to%20book%20Private%20Theatre"
         className="w-auto sm:px-8 px-4 py-3 text-xs sm:text-sm font-medium text-black bg-[#ffb300] hover:bg-[#e6a100] transition"
       >
-        BOOK NOW
+        Book Now
       </a>
             </div>
           </div>
         </div>
       </header>
-      <video autoPlay loop muted className="absolute z-10 w-auto min-w-full min-h-full max-w-none brightness-50">
+      <video autoPlay loop muted className="absolute z-10 w-auto min-w-full min-h-full max-w-none brightness-50 grayscale-20">
         <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <main className="relative py-10 z-20 px-10 md:px-6 h-full w-screen">
         <div className="mx-auto flex h-full w-full max-w-4xl flex-col items-center justify-center space-y-6 text-center">
-          <h1 className="font-landasans font-bold text-6xl md:text-9xl lg:text-[150px]  text-[#ffb300] opacity-100 tracking-widest">
-            The Vibe Venue 
+          <h1 className="font-landasans font-bold text-6xl md:text-9xl lg:text-[150px]  text-[#ffb300] opacity-60 tracking-widest">
+            THE VIBE VENUE 
           </h1>
           <p className=" mx-auto max-w-2xl sm:text-lg md:text-xl md:leading-8 text-[#ffffff] ">Private theatre for every celebration, we capture your special moments with a cinematic touch, turning them into timeless memories.</p>
           <div className="flex space-x-4">
