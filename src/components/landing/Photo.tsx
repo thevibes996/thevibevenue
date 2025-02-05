@@ -11,7 +11,7 @@ const Gallery = () => {
   const galleryItems: GalleryItem[] = [
     {
       id: 1,
-      image: "/red-decor.jpg",
+      image: "red-decor.jpg",
       gridArea: "span 1 / span 1",
       aspectRatio: "aspect-[4/3]"
     },
