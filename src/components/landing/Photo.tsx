@@ -11,31 +11,31 @@ const Gallery = () => {
   const galleryItems: GalleryItem[] = [
     {
       id: 1,
-      image: "/red-decor.jpg",
+      image: "../../assets/red-decor.jpg",
       gridArea: "span 1 / span 1",
       aspectRatio: "aspect-[4/3]"
     },
     {
       id: 2,
-      image: "/floral-wall.jpg",
+      image: "../../assets/floral-wall.jpg",
       gridArea: "span 2 / span 2",
       aspectRatio: "aspect-square"
     },
     {
       id: 3,
-      image: "/purple-setup.jpg",
+      image: "../../assets/purple-setup.jpg",
       gridArea: "span 1 / span 1",
       aspectRatio: "aspect-[4/3]"
     },
     {
       id: 4,
-      image: "/red-couch.jpg",
+      image: "../../assets/red-couch.jpg",
       gridArea: "span 1 / span 1",
       aspectRatio: "aspect-[3/2]"
     },
     {
       id: 5,
-      image: "/purple-wide.jpg",
+      image: "../../assets/purple-wide.jpg",
       gridArea: "span 1 / span 2",
       aspectRatio: "aspect-[16/9]"
     }
