@@ -82,7 +82,7 @@ const Features = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-50 transition-all duration-300 ease-in-out"></div>
                 </div>
                 <h3 className="mt-4 px-2 text-lg font-semibold text-gray-900">
-                  <a href={favorite.href} className="flex justify-between items-center">
+                  <a className="flex justify-between items-center">
                     <span className="font-kanit font-bold text-xl">{favorite.name}</span>
                     <img src={arrow} alt="arrow" className="h-6 w-6" />
                   </a>

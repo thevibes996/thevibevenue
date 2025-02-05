@@ -61,7 +61,7 @@ export default class Video extends Component {
         <div className="flex justify-center justify-items-center items-center">
           <div className="flex flex-col sm:flex-row gap-10  p-4 ">
             <a
-              href="#googlemaplink"
+              href="https://maps.app.goo.gl/d5KKrzfr3y8Bg19BA?g_st=ic"
               className="flex flex-row-2w-full    justify-center justify-items-center text-center items-center "
             >
               <div className="row-span-1 flex  justify-center justify-items-center text-center items-center ">
