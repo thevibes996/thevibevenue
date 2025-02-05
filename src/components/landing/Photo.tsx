@@ -12,35 +12,35 @@ const Gallery = () => {
       image: redDecor,
       gridArea: "span 1 / span 1",
       aspectRatio: "aspect-[4/3]",
-      // title: "Red Decor"
+     
     },
     {
       id: 2,
       image: floralWall,
       gridArea: "span 2 / span 2",
       aspectRatio: "aspect-square",
-      // title: "Floral Wall"
+      
     },
     {
       id: 3,
       image: purpleSetup,
       gridArea: "span 1 / span 1",
       aspectRatio: "aspect-[4/3]",
-      // title: "Purple Setup"
+    
     },
     {
       id: 4,
       image: redCouch,
       gridArea: "span 1 / span 1",
       aspectRatio: "aspect-[3/2]",
-      // title: "Red Couch"
+     
     },
     {
       id: 5,
       image: purpleWide,
       gridArea: "span 1 / span 2",
       aspectRatio: "aspect-[16/9]",
-      // title: "Purple Wide"
+     
     }
   ];
 
@@ -58,7 +58,7 @@ const Gallery = () => {
             <div className={`relative w-full h-full ${item.aspectRatio || 'aspect-video'}`}>
               <img
                 src={item.image}
-                alt={item.title}
+{/*                 alt={item.title} */}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
