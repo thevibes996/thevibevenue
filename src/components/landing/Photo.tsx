@@ -1,46 +1,46 @@
 import React from 'react';
-import RedDecor from "../../assets/red-decor.jpg";
-import FloralWall from "../../assets/floral-wall.jpg";
-import PurpleSetup from "../../assets/purple-setup.jpg";
-import RedCouch from "../../assets/red-couch.jpg";
-import PurpleWide from "../../assets/purple-wide.jpg";
+import redDecor from "../../assets/red-decor.jpg";
+import floralWall from "../../assets/floral-wall.jpg";
+import purpleSetup from "../../assets/purple-setup.jpg";
+import redCouch from "../../assets/red-couch.jpg";
+import purpleWide from "../../assets/purple-wide.jpg";
 
 const Gallery = () => {
   const galleryItems = [
     {
       id: 1,
-      image: RedDecor,
+      image: redDecor,
       gridArea: "span 1 / span 1",
       aspectRatio: "aspect-[4/3]",
-      title: "Red Decor"
+      // title: "Red Decor"
     },
     {
       id: 2,
-      image: FloralWall,
+      image: floralWall,
       gridArea: "span 2 / span 2",
       aspectRatio: "aspect-square",
-      title: "Floral Wall"
+      // title: "Floral Wall"
     },
     {
       id: 3,
-      image: PurpleSetup,
+      image: purpleSetup,
       gridArea: "span 1 / span 1",
       aspectRatio: "aspect-[4/3]",
-      title: "Purple Setup"
+      // title: "Purple Setup"
     },
     {
       id: 4,
-      image: RedCouch,
+      image: redCouch,
       gridArea: "span 1 / span 1",
       aspectRatio: "aspect-[3/2]",
-      title: "Red Couch"
+      // title: "Red Couch"
     },
     {
       id: 5,
-      image: PurpleWide,
+      image: purpleWide,
       gridArea: "span 1 / span 2",
       aspectRatio: "aspect-[16/9]",
-      title: "Purple Wide"
+      // title: "Purple Wide"
     }
   ];
 
