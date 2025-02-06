@@ -64,7 +64,7 @@ const Features = () => {
   };
 
   return (
-    <section aria-labelledby="favorites-heading">
+    <section id="Features" aria-labelledby="favorites-heading">
       <div className="mx-auto max-w-7xl pt-20 pb-32">
         <div className="flex flex-col px-4 pb-10">
           <h2 className="mx-auto max-w-4xl text-3xl font-bold font-kanit py-4">What We Offer</h2>

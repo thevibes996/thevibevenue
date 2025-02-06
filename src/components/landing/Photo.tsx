@@ -60,7 +60,7 @@ const Gallery = () => {
   ];
 
   return (
-    <section className="w-full px-4 py-8 sm:py-12 lg:py-16">
+    <section id="photo" className="w-full px-4 py-8 sm:py-12 lg:py-16">
       <div className="container mx-auto max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 auto-rows-auto">
           {galleryItems.map((item) => (
