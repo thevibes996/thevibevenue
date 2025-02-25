@@ -61,7 +61,7 @@ export default class Video extends Component {
         <div className="flex justify-center justify-items-center items-center">
           <div className="flex flex-col sm:flex-row gap-10  p-4 ">
             <a
-              href="#"
+              href="https://www.google.com/maps/place/The+Vibe+Venue+%26+PS+Cakes/@12.7139436,77.6967545,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae6f0009f4df83:0x471ffd7333857b38!8m2!3d12.7139436!4d77.6993294!16s%2Fg%2F11x04sf7ty?hl=en-IN&entry=ttu&g_ep=EgoyMDI1MDIxOS4xIKXMDSoASAFQAw%3D%3D"
               className="flex flex-row-2w-full    justify-center justify-items-center text-center items-center "
             >
               <div className="row-span-1 flex  justify-center justify-items-center text-center items-center ">
