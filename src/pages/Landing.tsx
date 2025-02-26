@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 import Features from "@components/landing/Features";
 import Hero from "@components/landing/Hero";
 import Photo from "@components/landing/Photo";
@@ -12,41 +13,49 @@ import Equipment from "@components/landing/Equipment";
 
 export default function Landing() {
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?84234";
-    script.async = true;
+    // Ensure the script runs only in the browser
+    if (typeof window !== "undefined") {
+      const script = document.createElement("script");
+      script.src = "https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?84234";
+      script.async = true;
 
-    script.onload = () => {
-      if (window.CreateWhatsappChatWidget) {
-        window.CreateWhatsappChatWidget({
-          enabled: true,
-          chatButtonSetting: {
-            backgroundColor: "#25d366",
-            ctaText: "Chat with us",
-            borderRadius: "25",
-            marginLeft: "0",
-            marginRight: "20",
-            marginBottom: "20",
-            ctaIconWATI: true,
-            position: "right",
-          },
-          brandSetting: {
-            brandName: "Wati",
-            brandSubTitle: "undefined",
-            brandImg: "https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg",
-            welcomeText: "Hi there!\nHow can I help you?",
-            messageText: "Hello, %0A I have a question about {{page_title}}",
-            backgroundColor: "#25d366",
-            ctaText: "Chat with us",
-            borderRadius: "25",
-            autoShow: false,
-            phoneNumber: "919535126699",
-          },
-        });
-      }
-    };
+      script.onload = () => {
+        if (window.CreateWhatsappChatWidget) {
+          window.CreateWhatsappChatWidget({
+            enabled: true,
+            chatButtonSetting: {
+              backgroundColor: "#25d366",
+              ctaText: "Chat with us",
+              borderRadius: "25",
+              marginLeft: "0",
+              marginRight: "20",
+              marginBottom: "20",
+              ctaIconWATI: true,
+              position: "right",
+            },
+            brandSetting: {
+              brandName: "Wati",
+              brandSubTitle: "undefined",
+              brandImg: "https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg",
+              welcomeText: "Hi there!\nHow can I help you?",
+              messageText: "Hello, %0A I have a question about {{page_title}}",
+              backgroundColor: "#25d366",
+              ctaText: "Chat with us",
+              borderRadius: "25",
+              autoShow: false,
+              phoneNumber: "919535126699",
+            },
+          });
+        }
+      };
 
-    document.body.appendChild(script);
+      document.body.appendChild(script);
+
+      return () => {
+        // Cleanup: Remove the script when the component unmounts
+        document.body.removeChild(script);
+      };
+    }
   }, []);
 
   return (
