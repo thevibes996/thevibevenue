@@ -26,7 +26,7 @@ const Footer = () => {
               ></path>
             </svg>
           </a>
-          <a href="https://www.facebook.com/profile.php?id=61572415484109&sk=about_details" className="text-gray-400 hover:text-gray-500">
+          <a href="https://www.facebook.com/profile.php?id=61572415484109&sk=about_details"  className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">facebook</span>
             <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
   <path 
@@ -35,7 +35,18 @@ const Footer = () => {
     d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3V2z" 
   />
 </svg>
+          </a> <a href="https://www.google.com/search?sca_esv=e3144f6254eef5eb&hl=en-GB&rlz=1CDGOYI_enIN1133IN1133&cs=1&output=search&kgmid=/g/11x04sf7ty&q=The+Vibe+Venue+%26+PS+Cakes&shndl=30&source=sh/x/loc/act/m1/3&kgs=0f4cacdcbd2a0a4b"  className="text-gray-400 hover:text-gray-500">
+            <span className="sr-only">Google</span>
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 50 50" aria-hidden="true">
+  <path 
+    strokeLinecap="round" 
+    strokeLinejoin="round" 
+    d="M26 2C13.3 2 3 12.3 3 25s10.3 23 23 23c9.9 0 15.9-4.6 19.1-10.2 3.2-5.7 3.6-12.3 2.7-16.9h-22v10.4h11.4c-1.7 4-5.2 6.8-10.2 6.8-6.8 0-12.3-5.5-12.3-12.3S19.2 12.7 26 12.7c3 0 5.8 1.1 8 2.9l6.8-6.8C37.4 4.3 31.9 2 26 2z"
+  />
+</svg>
+
           </a>
+          
         </span>
       </div>
     </section>
